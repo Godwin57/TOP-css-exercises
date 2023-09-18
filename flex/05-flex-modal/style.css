@@ -87,6 +87,7 @@ from the code provided */
 
 .close-button{
   font-weight: 900;
+  flex-shrink: 0;
 }
 
 .text{
