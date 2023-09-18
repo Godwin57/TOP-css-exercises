@@ -71,16 +71,20 @@ main{
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  gap: 32px;
 }
 
 .card{
-  padding: 10px;
-  max-width: 300px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
 
 .footer{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+li{
+  margin-bottom: 16px;
 }
