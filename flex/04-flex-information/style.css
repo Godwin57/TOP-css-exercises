@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +11,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
 }
 
 .gallery{
@@ -20,11 +20,8 @@ img {
   justify-content: center;
 }
 
-.gallery .one, .gallery .two, .gallery .three, .gallery .four{
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.gallery-item{
+  max-width: 200px;
 }
 /* do not edit this footer */
 .footer {
